@@ -168,9 +168,9 @@ export default function EventPage({ event }) {
 
         {/* Description at the end of the page */}
         {event.description && (
-          <Reveal delay={1200} as="footer" className="relative z-20 mt-6 w-full max-w-xl px-2">
+          <Reveal delay={1200} as="footer" className="relative z-20 mt-5 w-full max-w-xl px-2 mb-2 sm:mt-6 sm:mb-0">
             <div
-              className={`rounded-lg border border-(--accent)/25 px-4 py-3 text-center shadow-xs sm:px-6 sm:py-3.5 ${
+              className={`rounded-lg border border-(--accent)/25 px-4 py-2.5 text-center shadow-xs sm:px-6 sm:py-3.5 ${
                 theme.night
                   ? 'bg-ink/80 text-paper/95 backdrop-blur-md'
                   : 'bg-paper/90 text-(--page-ink) backdrop-blur-xs'
