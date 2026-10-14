@@ -336,7 +336,6 @@ export default function ThemeDecor({ theme }) {
               }}
             />
           ))}
-          <Sun className="absolute top-[5%] left-[6%] size-16 sm:size-24" />
           <span className="decor-shooting absolute top-[12%] left-[30%] block h-px w-24 bg-gradient-to-r from-transparent to-[#fff6d8]" />
           <div className="absolute top-[5%] right-[6%] size-20 rounded-full shadow-[0_0_60px_20px_rgba(255,236,170,0.25)] sm:size-28">
             <div className="h-full w-full rounded-full bg-[radial-gradient(circle_at_35%_35%,#fff8df,#f1d58c_60%,#c9a24e)] [mask-image:radial-gradient(circle_at_72%_32%,transparent_42%,#000_43%)]" />

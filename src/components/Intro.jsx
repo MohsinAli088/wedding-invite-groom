@@ -250,10 +250,15 @@ export default function Intro({ onOpen, onDone }) {
                   શ્રી
                 </span>
               ) : (
-                <img src={img('logo.webp')} alt="" className="w-[80%] opacity-75 mix-blend-multiply" />
+                <img
+                  src={img('logo.webp')}
+                  alt=""
+                  className="w-[80%] opacity-75 mix-blend-multiply"
+                  style={{ transform: 'translate(-3.3%, -2.7%)' }}
+                />
               )}
             </span>
-            <span className="text-xs tracking-[0.35em] text-teal-deep uppercase sm:text-sm">
+            <span className="text-xs tracking-[0.35em] text-teal-deep uppercase sm:text-sm pl-[0.35em]">
               {phase === 'loading' ? 'Opening your invitation…' : 'Tap to open'}
             </span>
           </button>
