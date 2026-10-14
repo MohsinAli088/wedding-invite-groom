@@ -26,14 +26,47 @@ export const opening = {
   bride: { name: 'Prarthana', parents: '(Daughter of Hema and Bhrugesh Bhatt)' },
 }
 
-// SAPTABANDHAN CONCEPT
 export const description = {
   title: 'Saptabandhan',
   subtitle: 'Our Wedding Journey in Seven Sacred Chapters',
   paragraphs: [
-    "Our wedding journey unfolds in seven sacred chapters beginning with the decision to celebrate our lotus-like souls' union with all of you in the Kankotri-lekhan. The groom and his family then introduced the bride to their customs and bound the souls in a “sacred wedding knot” during the Chundadi (Vivah Khel) Function followed by the fragrant, love-filled waves of the Mehandi celebration to both families.",
-    'We then sought auspicious planetary blessings to direct us through life, like the North Star with the auspicious Grah Shanti before we go back to our roots, where all near and dear ones bless us Infinity with health and prosperity through the customary healthy Haldi.',
-    'In the penultimate stage, all of us gather under the stars to dance and celebrate to the moon and back in Sangeet Night leading finally to the ultimate Vivah, where Agnidev witnesses and blesses our eternal union.',
+    [
+      { text: "Our wedding journey unfolds in seven sacred chapters beginning with the decision to celebrate our " },
+      { text: "Lotus", type: "element" },
+      { text: "-like souls' union with all of you in the " },
+      { text: "Kankotri Lekhan", type: "function" },
+      { text: ". The groom and his family then introduced the bride to their customs and bound the souls in a " },
+      { text: "“Sacred Wedding Knot”", type: "element" },
+      { text: " during the " },
+      { text: "Chundadi (Vivah Khel) Function", type: "function" },
+      { text: " followed by the fragrant, love-filled " },
+      { text: "Waves", type: "element" },
+      { text: " of the " },
+      { text: "Mehandi Celebration", type: "function" },
+      { text: " to both families." },
+    ],
+    [
+      { text: "We then sought auspicious planetary blessings to direct us through life, like the " },
+      { text: "North Star", type: "element" },
+      { text: " with the auspicious " },
+      { text: "Grah Shanti", type: "function" },
+      { text: " before we go back to our roots, where all near and dear ones bless us " },
+      { text: "Infinity", type: "element" },
+      { text: " with health and prosperity through the customary healthy " },
+      { text: "Haldi", type: "function" },
+      { text: "." },
+    ],
+    [
+      { text: "In the penultimate stage, all of us gather under the stars to dance and celebrate to the " },
+      { text: "Moon and back", type: "element" },
+      { text: " in " },
+      { text: "Sangeet Night", type: "function" },
+      { text: " leading finally to the ultimate " },
+      { text: "Vivah", type: "function" },
+      { text: ", where " },
+      { text: "Agnidev (Agni)", type: "element" },
+      { text: " witnesses and blesses our eternal union." },
+    ],
   ],
 }
 
@@ -51,7 +84,7 @@ export const sequenceOfElements = [
 const PARADISE_PARK = ['12, Paradise Park Society, Behind Welcome Hotel,', 'Usmanpura, Ahmedabad, Gujarat']
 const KAMLA_AMRUT = ['Kamla Amrut Farm']
 
-// Wedding events (Kankotri & Mataji na Lota removed as per instructions)
+// Wedding events
 export const events = [
   {
     id: 'chundadi',
@@ -153,7 +186,7 @@ export const events = [
     element: 'agni',
     invocation: { lang: 'gu', text: '॥ શ્રી ગણેશાય નમઃ ॥' },
     blessing: {
-      verse: { lang: 'hi', lines: ['जेहि કें જેહિ પર સત્ય સનેહૂ।', 'સો તેહિ મિલઇ ન કછુ સંદેહૂ॥'] },
+      verse: { lang: 'hi', lines: ['जेहि कें जेहि पर सत्य सनेहू।', 'सो तेहि मिलइ न कछु संदेहू॥'] },
       lines: [
         'With mantras in the air, blessings in our hearts, and the grace of the divine,',
         'we invite you to witness the sacred union of two hearts and two families.',

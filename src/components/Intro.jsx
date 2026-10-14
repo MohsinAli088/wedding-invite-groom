@@ -64,8 +64,9 @@ function cardBox(vw, vh) {
 function geometry(vw, vh) {
   const E = Math.min(vw * 0.78, 460)
   const H = E * 0.66
-  const cx = 0
-  const cy = 0
+  const desktop = vw >= 768
+  const cx = vw * (desktop ? 0.1 : 0.06)
+  const cy = vh * (desktop ? 0.2 : 0.24)
   const card = cardBox(vw, vh)
   const s = (0.52 * E) / card.w
   return { E, H, cx, cy, card, s, ch: s * card.h }
@@ -75,9 +76,9 @@ function envelopeAt(t, g, vw, vh) {
   const p = outCubic(seg(t, T.enter))
   const q = inCubic(seg(t, T.envOut))
   return {
-    dx: g.cx + lerp(vw * 0.4, 0, p),
-    dy: g.cy + lerp(vh * 0.4, 0, p) + q * vh * 0.9,
-    r: 0,
+    dx: g.cx + lerp(vw * 0.6, 0, p),
+    dy: g.cy + lerp(vh * 0.6, 0, p) + q * vh * 0.9,
+    r: lerp(24, -7, p) - 10 * q,
     blur: q * 6,
   }
 }
