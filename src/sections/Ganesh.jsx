@@ -35,7 +35,7 @@ export default function Ganesh() {
       </Reveal>
 
       {/* 2. Vakratunda Mahakaya... (Shlok) */}
-      <Reveal delay={350} lang="gu" className="mt-2.5 font-gujarati text-base leading-relaxed font-semibold text-rust sm:text-xl">
+      <Reveal delay={350} lang="sa" className="mt-2.5 font-devanagari text-base leading-relaxed font-semibold text-rust sm:text-xl">
         {opening.shloka.map((l) => (
           <p key={l}>{l}</p>
         ))}

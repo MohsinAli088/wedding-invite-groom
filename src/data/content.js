@@ -12,14 +12,14 @@ export const mantra = {
   shri: 'શ્રી',
   ganesh: '॥ શ્રી ગણેશાય નમઃ ॥',
   jalaram: '॥ શ્રી જલારામ બાપા ની જય ॥',
-  kuldevi: ['કુલદેવી શ્રી હિંગળાજ માતા', 'અને રાજ રાજેશ્વરી અંબાજી મા ની કૃપાથી'],
+  kuldevi: ['॥ કુલદેવી શ્રી હિંગળાજ માતા ॥', '॥ રાજ રાજેશ્વરી અંબાજી મા ની કૃપાથી ॥'],
 }
 
 // MAIN PAGE 1: GANESH
 export const opening = {
   shloka: [
-    'વક્રતુંડ મહાકાય સૂર્યકોટી સમપ્રભ ।',
-    'નિર્વિઘ્નં કુરુ મે દેવ સર્વકાર્યેષુ સર્વદા ॥',
+    'वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।',
+    'निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥',
   ],
   intro: 'The Wedding Invite of',
   groom: { name: 'Yatin', parents: '(Son of Sona and Pritesh Karia)' },
@@ -92,8 +92,8 @@ export const events = [
     theme: 'rajputana',
     element: 'knot',
     invocation: { lang: 'sa', text: '॥ શ્રી કૃષ્ણઃ શરણં મમ ॥' },
-    date: 'Saturday, 20th November 2026',
-    schedule: [{ label: 'Timing', time: '6:00 PM onwards', note: '(followed by Dinner)' }],
+    date: 'Friday, 20th November 2026',
+    schedule: [{ label: 'Timing', time: '5:30 PM onwards', note: '(followed by Dinner)' }],
     dressCode: { label: 'Green', colors: ['#2f7d4a'] },
     venue: ['Kalyan Pushti Haveli, Vastrapur', 'Ahmedabad, Gujarat'],
     description:

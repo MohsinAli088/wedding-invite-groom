@@ -72,7 +72,7 @@ export default function EventPage({ event }) {
             <span className="animate-spin-slow absolute inset-1 rounded-full border border-dashed border-(--accent-2)/40" />
             <Icon
               name={event.element}
-              className={`size-8 sm:size-9 ${theme.night ? 'brightness-0 invert sepia-[.6] saturate-[2.5]' : 'contrast-125 brightness-90'} drop-shadow-xs`}
+              className={`size-9.5 sm:size-11 ${theme.night ? 'brightness-0 invert sepia-[.6] saturate-[2.5]' : 'contrast-125 brightness-90'} drop-shadow-xs`}
             />
           </span>
         </Reveal>
