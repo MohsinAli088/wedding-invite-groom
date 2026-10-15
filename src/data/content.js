@@ -219,7 +219,7 @@ export const family = {
   ],
   greetingsTitle: '|| A CORDIAL INVITATION FROM ||',
   greetingsCouples: [
-    ['Mr. (Late) Rameshbhai Jayantilal Karia', 'Mrs. Jayshreeben Rameshbhai Karia'],
+    ['Mr. (Late) Rameshbhai Jayantibhai Karia', 'Mrs. Jayshreeben Rameshbhai Karia'],
     ['Mr. Bakulbhai Jayantibhai Karia', 'Mrs. Meenaben Bakulbhai Karia'],
     ['Mr. Mukundbhai Jayantibhai Karia', 'Mrs. Amitaben Mukundbhai Karia'],
     ['Mr. Shyambhai Jayantibhai Karia', 'Mrs. Rupanben Shyambhai Karia'],
@@ -233,6 +233,10 @@ export const family = {
     'Ms. Aastha Rambhai Karia',
   ],
   awaits: 'And the entire Karia family wishes you — Jai Shri Krishna!',
+  regards: {
+    title: '|| RAM RAM ||',
+    text: 'With warm regards from Nathwani family',
+  },
   tahuko: {
     title: 'Tahuko',
     lines: [

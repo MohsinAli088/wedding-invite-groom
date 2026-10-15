@@ -52,6 +52,14 @@ export default function Family() {
         <p className="text-xs font-semibold text-rust italic sm:text-base lg:text-lg">{family.awaits}</p>
       </Reveal>
 
+      {/* Nathwani family regards */}
+      {family.regards && (
+        <Reveal delay={900} className="mt-2.5">
+          <p className="text-xs font-bold tracking-[0.2em] text-teal-deep uppercase sm:text-sm lg:text-base">{family.regards.title}</p>
+          <p className="mt-0.5 text-xs font-semibold text-teal-deep italic sm:text-base lg:text-lg">{family.regards.text}</p>
+        </Reveal>
+      )}
+
       {/* Tahuko */}
       {family.tahuko?.lines?.length > 0 && (
         <Reveal delay={950} className="mt-3.5 max-w-xl">
