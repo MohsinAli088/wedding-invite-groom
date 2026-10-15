@@ -82,6 +82,7 @@ export const sequenceOfElements = [
 ]
 
 const PARADISE_PARK = ['12, Paradise Park Society, Behind Welcome Hotel,', 'Usmanpura, Ahmedabad, Gujarat']
+const PARADISE_PARK_MAP = 'https://www.google.com/maps/search/?api=1&query=23.051899,72.572555'
 const KAMLA_AMRUT = ['Kamla Amrut Farm']
 
 // Wedding events
@@ -115,6 +116,7 @@ export const events = [
     schedule: [{ label: 'Mehandi Ceremony', time: '5:00 PM onwards', note: '(followed by dinner)' }],
     dressCode: { label: 'Pink', colors: ['#e58fb0'] },
     venue: PARADISE_PARK,
+    mapUrl: PARADISE_PARK_MAP,
     description:
       'The love story unfolds as henna adorns and beautifies the bride and all the magnificent guests who come in “waves” to bless the bride and groom.',
   },
@@ -138,6 +140,7 @@ export const events = [
     ],
     dressCode: { label: 'Yellow/Red/Gharchola', colors: ['#f2c230', '#c0272d'] },
     venue: PARADISE_PARK,
+    mapUrl: PARADISE_PARK_MAP,
     description:
       'The couple seeks blessings of all the celestial bodies and protection and guidance in life, just as sailors seek direction from the “North Star”.',
   },

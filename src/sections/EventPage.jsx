@@ -157,7 +157,7 @@ export default function EventPage({ event }) {
             ))}
           </address>
           <a
-            href={mapsLink(event.venue)}
+            href={event.mapUrl || mapsLink(event.venue)}
             target="_blank"
             rel="noreferrer"
             className="mt-2 inline-block border border-(--accent) px-4 py-1 text-xs tracking-[0.18em] text-(--accent) uppercase transition hover:bg-(--accent) hover:text-paper"
