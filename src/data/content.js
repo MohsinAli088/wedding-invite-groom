@@ -209,20 +209,20 @@ export const events = [
 export const family = {
   divineTitle: '|| DIVINE BLESSINGS ||',
   divineCouples: [
-    ['Late Mr. Kantibhai Waljibhai Karia', 'Late Mrs. Kantaben Kantibhai Karia'],
-    ['Late Mr. Babubhai Waljibhai Karia', 'Late Mrs. Heeraben Babubhai Karia'],
-    ['Late Mr. Jayantibhai Waljibhai Karia', 'Late Mrs. Manjulaben Jayantilal Karia'],
-    ['Late Mr. Batukbhai Waljibhai Karia', 'Late Mrs. Ramaben Batukbhai Karia'],
+    ['Late Mr. Kantibhai Valjibhai Karia', 'Late Mrs. Kantaben Kantibhai Karia'],
+    ['Late Mr. Babubhai Valjibhai Karia', 'Late Mrs. Heeraben Babubhai Karia'],
+    ['Late Mr. Jayantibhai Valjibhai Karia', 'Late Mrs. Manjulaben Jayantibhai Karia'],
+    ['Late Mr. Batukbhai Valjibhai Karia', 'Late Mrs. Ramaben Batukbhai Karia'],
   ],
-  greetingsTitle: '|| WITH RESPECTFUL GREETINGS ||',
+  greetingsTitle: '|| A CORDIAL INVITATION FROM ||',
   greetingsCouples: [
     ['Mr. (Late) Rameshbhai Jayantilal Karia', 'Mrs. Jayshreeben Rameshbhai Karia'],
-    ['Mr. Bakulbhai Jayantibhai Karia', 'Mrs. Minaben Bakulbhai Karia'],
+    ['Mr. Bakulbhai Jayantibhai Karia', 'Mrs. Meenaben Bakulbhai Karia'],
     ['Mr. Mukundbhai Jayantibhai Karia', 'Mrs. Amitaben Mukundbhai Karia'],
-    ['Mr. Shyamlalbhai Jayantibhai Karia', 'Mrs. Rupanben Shyamlalbhai Karia'],
+    ['Mr. Shyambhai Jayantibhai Karia', 'Mrs. Rupanben Shyambhai Karia'],
     ['Mr. Rambhai Jayantibhai Karia', 'Mrs. Sonaben Rambhai Karia'],
     ['Mr. Kaushikbhai Babubhai Karia', 'Mrs. Parulben Kaushikbhai Karia'],
-    ['Mr. Prakashbhai Babubhai Karia', 'Mrs. Binaben Prakashbhai Karia'],
+    ['Mr. Prakashbhai Babubhai Karia', 'Mrs. Beenaben Prakashbhai Karia'],
   ],
   specialMembers: [
     'Mr. Dhawalbhai Rambhai Karia',
@@ -238,7 +238,6 @@ export const family = {
     ],
     from: '– Jainam, Mishti, Krisha, Keyansh, Rishiv',
   },
-  note: 'No gifts, no flowers only blessings',
 }
 
 export const mapsLink = (lines) =>

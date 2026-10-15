@@ -73,9 +73,11 @@ export default function Family() {
       )}
 
       {/* No gifts blessings note */}
-      <Reveal delay={1100} className="mt-3.5">
-        <p className="border-y border-rust/40 px-4 py-1 text-[11px] tracking-[0.2em] text-crimson uppercase sm:text-xs font-semibold">{family.note}</p>
-      </Reveal>
+      {family.note && (
+        <Reveal delay={1100} className="mt-3.5">
+          <p className="border-y border-rust/40 px-4 py-1 text-[11px] tracking-[0.2em] text-crimson uppercase sm:text-xs font-semibold">{family.note}</p>
+        </Reveal>
+      )}
     </Card>
   )
 }
