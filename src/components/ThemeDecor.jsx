@@ -316,7 +316,7 @@ export default function ThemeDecor({ theme }) {
               }}
             />
           ))}
-          <FerrisWheel className="absolute right-[2%] -bottom-5 sm:bottom-[2%] sm:right-[3%] h-28 w-24 sm:h-48 sm:w-44 opacity-70" />
+          <FerrisWheel className="absolute right-[3%] bottom-[2%] h-32 w-28 opacity-70 sm:h-48 sm:w-44" />
         </div>
       )
     case 'golden':
