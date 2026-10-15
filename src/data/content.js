@@ -192,7 +192,7 @@ export const events = [
       verse: { lang: 'hi', lines: ['जेहि कें जेहि पर सत्य सनेहू।', 'सो तेहि मिलइ न कछु संदेहू॥'] },
       lines: [
         'With mantras in the air, blessings in our hearts, and the grace of the divine,',
-        'we invite you to witness the sacred union of two hearts and two families.',
+        'We invite you to witness the sacred union of two hearts and two families.',
       ],
     },
     date: 'Tuesday, 24th November 2026',
@@ -222,7 +222,7 @@ export const family = {
     ['Mr. (Late) Rameshbhai Jayantibhai Karia', 'Mrs. Jayshreeben Rameshbhai Karia'],
     ['Mr. Bakulbhai Jayantibhai Karia', 'Mrs. Meenaben Bakulbhai Karia'],
     ['Mr. Mukundbhai Jayantibhai Karia', 'Mrs. Amitaben Mukundbhai Karia'],
-    ['Mr. Shyambhai Jayantibhai Karia', 'Mrs. Rupanben Shyambhai Karia'],
+    ['Mr. Shyambhai Jayantibhai Karia', 'Mrs. Rupaben Shyambhai Karia'],
     ['Mr. Rambhai Jayantibhai Karia', 'Mrs. Sonaben Rambhai Karia'],
     ['Mr. Kaushikbhai Babubhai Karia', 'Mrs. Parulben Kaushikbhai Karia'],
     ['Mr. Prakashbhai Babubhai Karia', 'Mrs. Beenaben Prakashbhai Karia'],
